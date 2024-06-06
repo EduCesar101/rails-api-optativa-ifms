@@ -4,7 +4,7 @@ development:
   database: store_api_development
   pool: 5
   username: postgres
-  password: postgres
+  password: 2001
   host: localhost
 
 test:
@@ -13,5 +13,5 @@ test:
   database: store_api_test
   pool: 5
   username: postgres
-  password: postgres
+  password: 2001
   host: localhost

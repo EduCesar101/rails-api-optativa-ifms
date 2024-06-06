@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.0.0'
+ruby '3.0.6'
 
 gem 'bootsnap', require: false
 gem 'faker'
@@ -14,5 +14,6 @@ gem 'rswag'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 group :development, :test do
+  gem 'rspec-rails', '~> 6.1.0'
   gem 'debug', platforms: %i[mri mingw x64_mingw]
 end

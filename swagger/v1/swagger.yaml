@@ -48,3 +48,24 @@ components: # Esta seção define esquemas reutilizáveis e outros componentes d
           type: string
           example: Synergistic Linen Table
           description: Nome do produto
+    Cliente: # Componente
+      type: object # Tipo de dado
+      properties: # Definição do início de uma lista
+        id: # Atributo
+          type: integer # Tipo de dado
+          example: 1 # Valor de exemplo a ser exibido na tela
+          description: Identificação do cliente # Definição do atributo
+        nome:
+          type: string
+          example: Synergistic Linen Table
+          description: Nome do cliente
+        sobrenome:
+          type: string
+          example: Synergistic Linen Table
+          description: Sobrenome do cliente
+        endereco:
+          type: string
+          example: Synergistic Linen Table
+          description: Endereço do cliente
+          
+          
